@@ -1,0 +1,41 @@
+# FastAPI and web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+mysql-connector-python==8.2.0
+pymysql==1.1.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# ML and Data Processing
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+nltk>=3.8
+
+# Validation and Configuration
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv==1.0.0
+
+# HTTP and Utilities
+requests==2.31.0
+httpx==0.25.2
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# CORS and Security
+# CORS is handled by FastAPI's built-in middleware
+
+# Logging and Monitoring
+loguru==0.7.2

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pymysql
+sqlalchemy
+python-jose
+passlib
+bcrypt
+loguru
+python-multipart
+email-validator
